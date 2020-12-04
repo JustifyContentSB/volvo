@@ -1,0 +1,12 @@
+@font-face {
+	font-family: 'Novum-Bold';
+	src: url('Novum-Bold.woff') format('woff'), 
+		 url('Novum-Bold.woff2') format('woff2'), 
+		 url('Novum-Bold.ttf') format('truetype'), 
+		 url('Novum-Bold.eot') format('embedded-opentype'), 
+		 url('Novum-Bold.otf') format('opentype'), 
+		 url('Novum-Bold.svg') format('svg');
+	font-style: normal;
+	font-display: swap;
+}
+

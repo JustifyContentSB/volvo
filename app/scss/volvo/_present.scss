@@ -1,0 +1,75 @@
+.volvo {
+	&__present {
+		&-wrapper {
+			margin-top: 15px;
+		}
+		padding-left: 15px;
+		overflow-x: scroll;
+		display: none;
+		&--active {
+			display: flex;
+		}
+		&::-webkit-scrollbar {
+			width: 0;
+			height: 0;
+		}
+		&-img {
+			width: 220px;
+			height: 124px;
+			margin-right: 10px;
+			position: relative;
+			&:last-child::after {
+				content:'';
+				position: absolute;
+				width: 15px;
+				height: 100%;
+				right: -15px;
+				top: 0;
+				background: transparent;
+			}
+			& span {
+				margin-top: 10px;
+				display: inline-block;
+			}
+			&--active {
+				& span {
+					font-family: $bold;
+					color: $blue;
+				}
+			}
+		}
+	}
+}
+
+@media screen and(min-width: 768px) {
+	.volvo {
+		&__present {
+			&-wrapper {
+				margin-top: 40px;
+			}
+			padding-right: 15px;
+			overflow-x: visible;
+			justify-content: center;
+		}
+	}
+}
+
+@media screen and(min-width: 1200px) {
+	.volvo {
+		&__present {
+			padding: 0;
+			&-img {
+				width: 305px;
+				height: auto;
+				& img {
+					width: 305px;
+					height: auto;
+				}
+				& span {
+					font-size: 18px;
+					line-height: 22px;
+				}
+			}
+		}
+	}
+}

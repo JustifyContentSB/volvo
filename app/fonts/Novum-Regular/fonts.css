@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Novum-Regular';
+	src: url('fonts/Volvo Novum-Regular.woff') format('woff'), 
+		 url('fonts/Volvo Novum-Regular.woff2') format('woff2'), 
+		 url('fonts/Volvo Novum-Regular.ttf') format('truetype'), 
+		 url('fonts/Volvo Novum-Regular.eot') format('embedded-opentype'), 
+		 url('fonts/Volvo Novum-Regular.otf') format('opentype'), 
+		 url('fonts/Volvo Novum-Regular.svg') format('svg');
+	font-style: normal;
+	font-display: swap;
+}
+
+
+

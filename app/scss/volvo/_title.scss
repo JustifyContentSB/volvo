@@ -1,0 +1,18 @@
+.volvo {
+	&__title {
+		font-family: $bold;
+		font-size: 26px;
+		line-height: 31px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+
+@media screen and(min-width: 1200px) {
+	.volvo {
+		&__title {
+			font-size: 34px;
+			line-height: 41px;
+		}
+	}
+}

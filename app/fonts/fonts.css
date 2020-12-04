@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Novum-Bold';
+	src: url('Novum-Bold/Novum-Bold.woff') format('woff'), 
+		 url('Novum-Bold/Novum-Bold.woff2') format('woff2'), 
+		 url('Novum-Bold/Novum-Bold.ttf') format('truetype'), 
+		 url('Novum-Bold/Novum-Bold.eot') format('embedded-opentype'), 
+		 url('Novum-Bold/Novum-Bold.otf') format('opentype'), 
+		 url('Novum-Bold/Novum-Bold.svg') format('svg');
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Novum-Medium';
+	src: url('Novum-Medium/Volvo Novum-Medium.woff') format('woff'), 
+		 url('Novum-Medium/Volvo Novum-Medium.woff2') format('woff2'), 
+		 url('Novum-Medium/Volvo Novum-Medium.ttf') format('truetype'), 
+		 url('Novum-Medium/Volvo Novum-Medium.eot') format('embedded-opentype'), 
+		 url('Novum-Medium/Volvo Novum-Medium.otf') format('opentype'), 
+		 url('Novum-Medium/Volvo Novum-Medium.svg') format('svg');
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Novum-Regular';
+	src: url('Novum-Regular/Volvo Novum-Regular.woff') format('woff'), 
+		 url('Novum-Regular/Volvo Novum-Regular.woff2') format('woff2'), 
+		 url('Novum-Regular/Volvo Novum-Regular.ttf') format('truetype'), 
+		 url('Novum-Regular/Volvo Novum-Regular.eot') format('embedded-opentype'), 
+		 url('Novum-Regular/Volvo Novum-Regular.otf') format('opentype'), 
+		 url('Novum-Regular/Volvo Novum-Regular.svg') format('svg');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}

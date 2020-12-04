@@ -1,0 +1,65 @@
+.volvo {
+	&__choose {
+		margin-top: 30px;
+		&-link {
+			display: block;
+			padding: 20px;
+			text-align: center;
+			font-size: 15px;
+			position: relative;
+			&--offer {
+				background: $blue;
+				color: #fff;
+				&::after {
+					position: relative;
+					content: url('../../images/icons/arrow.svg');
+					margin-left: 13px;
+					top: 1px;
+				}
+				&:hover,
+				&:focus {
+					background: #008EEC;
+				}
+			}
+			&--test {
+				& span {
+					position: relative;
+					&::after {
+						content:'';
+						position: absolute;
+						left: 0;
+						right: 0;
+						bottom: 0;
+						height: 1px;
+						background-color: #000;
+					}
+				}
+				&:hover span::after, 
+				&:focus span::after {
+					background-color: $blue;
+				}
+				&:hover span, 
+				&:focus span {
+					color: $blue;
+				}
+			}
+		}
+	}
+}
+
+@media screen and(min-width: 768px) {
+	.volvo {
+		&__choose {
+			display: flex;
+			flex-wrap: wrap;
+			&-link {
+				&--offer {
+					width: 270px;
+				}
+				&--test {
+					width: 115px;
+				}
+			}
+		}
+	}
+}
